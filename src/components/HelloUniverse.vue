@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>HELLO WORLD TS COMPONENT 2 {{ msg }}</h1>
+    <h1>HELLO UNIVERSE TS COMPONENT 2 {{ msg }}</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 
 @Component
-export default class HelloWorld extends Vue {
+export default class HelloUniverse extends Vue {
   @Prop() private msg!: string;
 }
 </script>
